@@ -42,7 +42,7 @@ ul {
 }
 
 
-div.menu {
+ul {
  	position: absolute;
     color: purple;
     opacity: 0.9;
