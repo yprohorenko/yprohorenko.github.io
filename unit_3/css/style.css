@@ -8,6 +8,7 @@ img {
 	width: 100%;
     height: auto;
    	opacity: 0.6;
+   	margin-bottom: auto;
 
 }
 
@@ -18,36 +19,43 @@ h1 {
 	font-variant: small-caps;
 	font-family: sans-serif;
 	font-size: 32px;
+	margin-top: 0px;
 }
 
 ul {
-    text-align: right;
     font-style: bold;
     font-variant: small-caps;
     font-family: sans-serif;
+    left: 100px;
+    top: 50px;
 }
 
 #slogan {
-	font-weight: bold ;
+	font-weight: bold;
 	font-family: sans-serif;
+	color: purple;
+	font-size: 18px;
 	position: absolute;
-	left: 100px;
-    top: 100px;
+	left: 90px;
+    top: 90px;
 }
 
 p{
 	text-transform: lowercase;
 	text-align: center;
 	font-family: sans-serif;
+	margin-top: 20px;
+
 }
 
 div {
  	border-style: ridge;
- 	border-color: red; 
+ 	border-color: transparent; 
  	position: absolute;
     left: 600px;
     top: 150px;
  }
+
 
 a:link {
     color: grey;
@@ -55,10 +63,24 @@ a:link {
     text-decoration: none;
     font-family: sans-serif;
 }
+
 a:hover {
-    color: purple;
+    color: grey;
     background-color: transparent;
     font-size: 18px;
  }
 
- 
+ a:visited {
+    color: grey;
+    background-color: transparent;
+    font-size: 18px;
+ }
+
+table, th {
+	border-color: transparent;
+	border-style: ridge;
+	margin-left: 75%;
+	margin-bottom:auto;
+
+
+}
