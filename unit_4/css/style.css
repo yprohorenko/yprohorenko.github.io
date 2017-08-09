@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+	padding: 0;
+    margin: 0;
+    background-attachment: scroll;
+}
+
+
+img {
+	width: 100%;
+    height: auto;
+   	opacity: 0.9;
+   	margin-bottom: auto;
+
+}
+
+h1 {
+	text-align: center;
+	color: rgb(224, 179, 255);
+	font-variant: small-caps;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 4.5em;
+}
+
+ul {
+    font-style: bold;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em; 
+    margin-top: 60px;
+    position: relative;
+}
+
+#slogan {
+    font-family: 'Sedgwick Ave', cursive;
+	color: black;
+    opacity: 0.8;
+    margin-left: 40px;
+	font-size: 1.5em;
+    letter-spacing: 0.2em;
+}
+
+
+ul {
+ 	position: absolute;
+    color: rgb(224, 179, 255);
+    line-height: 2em;
+    font-weight: bold;
+    margin-left: 900px;
+    top: 130px;
+ }
+
+div.motivation{
+	color:  #404040;
+    opacity: 0.8;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1em;
+
+}
+
+
+a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 0.5em;
+
+}
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    font-size: 2em;
+ }
+
+ a:visited {
+    color: grey;
+    background-color: transparent;
+    font-size: 2em;
+ }
+
+table, th {
+    padding-top: 1em;
+	border-color: transparent;	
+}
