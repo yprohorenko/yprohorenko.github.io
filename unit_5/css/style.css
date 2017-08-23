@@ -1,5 +1,124 @@
+
 header {
-    background-color: [enter color here];
-    border: 1px black solid;
-    padding: 20px;
+    background-color: blue;
+    height: 160px;
 }
+
+body {
+    background-color: pink;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.wrapper {
+  width: 940px;
+  margin:20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(224, 179, 255);
+  font-variant: small-caps;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 4.5em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  margin: auto;
+
+}
+
+
+nav,footer {
+  clear: both;
+  color: #ffffff;
+ 	background-color: grey;
+  height: 30px;
+ }
+
+ nav ul{
+  margin: 0px;
+  padding: 5px 0p 5px 30px;
+ }
+
+ nav li{
+  display: inline;
+  margin-right: 40px;
+ }
+
+a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 0.5em;
+
+}
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    font-size: 2em;
+ }
+
+ a:visited {
+    color: grey;
+    background-color: transparent;
+    font-size: 2em;
+ }
+
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+	background-color: green;
+}
+
+aside {
+  width: 230px;
+  float:right;
+  padding: 0px 0px 0px 20px;
+  background-color: red;
+}
+
+footer{
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
+}
+
+div {
+	background-color: yellow;
+}
+
+section {
+	background-color: blue;
+}
+
+#slogan {
+  font-family: 'Sedgwick Ave', cursive;
+  color: black;
+  opacity: 0.8;
+  margin: 40px;
+  font-size: 1.3em;
+  letter-spacing: 0.2em;
+}
+
+
+div.motivation{
+  color:  #404040;
+    opacity: 0.8;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1em;
+
+}
+
