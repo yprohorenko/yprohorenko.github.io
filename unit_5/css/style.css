@@ -1,19 +1,19 @@
 
 header {
-    background-color: blue;
-    height: 160px;
+    background-color: white;
+    height: 20%;
 }
 
 body {
-    background-color: pink;
+    /* background-color: pink;*/
     background-repeat: no-repeat;
     margin: 0px;
 }
 
 .wrapper {
-  width: 940px;
+  width: auto;
   margin:20px auto 20px auto;
-  border: 2px solid #000000;
+  /* border: 2px solid #000000;*/
   background-color: white;
 }
 
@@ -31,16 +31,15 @@ img {
   height: auto;
   opacity: 0.9;
   margin: auto;
-
 }
 
 
 nav,footer {
   clear: both;
   color: #ffffff;
- 	background-color: grey;
-  height: 30px;
+ 	/* background-color: grey;*/
  }
+
 
  nav ul{
   margin: 0px;
@@ -62,30 +61,28 @@ a:link {
 }
 
 a:hover {
-    color: grey;
-    background-color: transparent;
-    font-size: 2em;
+    color: red;
  }
 
  a:visited {
-    color: grey;
     background-color: transparent;
     font-size: 2em;
  }
 
 
 article {
-  clear: both;
   overflow: auto;
-  width: 100%;
-	background-color: green;
+  flex: 1;
+  clear: both;
+	/* background-color: green;*/
 }
 
 aside {
-  width: 230px;
+  width: 20%;
   float:right;
+  display: inline;
   padding: 0px 0px 0px 20px;
-  background-color: red;
+  /* background-color: red;*/
 }
 
 footer{
@@ -93,12 +90,16 @@ footer{
   padding: 7px 0px 0px 20px;
 }
 
-div {
-	background-color: yellow;
+ul#fmenu li{
+  display: inline;
+  margin-right: 20px;
 }
 
+
 section {
-	background-color: blue;
+	/* background-color: brown;*/
+  display: flex;
+  height: 100%;
 }
 
 #slogan {
@@ -107,13 +108,12 @@ section {
   opacity: 0.8;
   margin: 40px;
   font-size: 1.3em;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.4em;
 }
 
-
-div.motivation{
-  color:  #404040;
-    opacity: 0.8;
+.motivation{
+    color:  #404040;
+    opacity: 0.9;
     font-family: sans-serif;
     font-variant: small-caps;
     text-align: center;
