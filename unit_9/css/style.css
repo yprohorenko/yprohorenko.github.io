@@ -1,0 +1,169 @@
+
+header {
+    background-color: white;
+    height: 20%;
+}
+
+body {
+    /* background-color: pink;*/
+    background-repeat: no-repeat;
+    margin: 0%;
+    font-size: 16px;
+}
+
+.wrapper {
+  width: auto;
+  margin:10% auto 10% auto;
+  /* border: 2px solid #000000;*/
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(224, 179, 255);
+  font-variant: small-caps;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 4.5em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  margin: auto;
+}
+
+
+nav,footer {
+  clear: both;
+  color: #ffffff;
+  /* background-color: grey;*/
+ }
+
+
+ nav ul{
+  margin: 0%;
+  padding: 10% 0p 10% 30%;
+ }
+
+ nav li{
+  display: inline;
+  margin-right: 10%;
+ }
+
+a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 0.5em;
+
+}
+
+a:hover {
+    color: red;
+ }
+
+ a:visited {
+    background-color: transparent;
+    font-size: 2em;
+ }
+
+ @media only screen and (max-width: 768px;) 
+
+
+article {
+  overflow: auto;
+  flex: 1;
+  clear: both;
+  /* background-color: green;*/
+}
+
+aside {
+  width: 20%;
+  float:right;
+  display: inline;
+  padding: 0px 0px 0px 20px;
+  /* background-color: red;*/
+}
+
+footer{
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
+}
+
+ul#fmenu li{
+  display: inline;
+  margin-right: 20px;
+}
+
+
+section {
+  /* background-color: brown;*/
+  display: flex;
+  height: 100%;
+}
+
+#slogan {
+  font-family: 'Sedgwick Ave', cursive;
+  color: black;
+  opacity: 0.8;
+  margin: 40px;
+  font-size: 1.3em;
+  letter-spacing: 0.4em;
+}
+
+.motivation{
+    color:  #404040;
+    opacity: 0.9;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1em;
+
+}
+
+#two_column {
+    /*background-color: #FFB7CF;
+    border: 1px black solid; */ 
+    padding: 20px;
+}
+
+#left {
+    /*background-color: #E582A2;
+    border: 1px black solid;*/
+    padding: 20px;
+}
+
+#right {
+    /* background-color: #E55B88;
+    border: 1px black solid;*/
+    padding: 20px;
+}
+
+#left {
+    /*background-color: violet;
+    border: 1px black solid; */
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    /*background-color: pink;
+    border: 1px black solid;*/
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
